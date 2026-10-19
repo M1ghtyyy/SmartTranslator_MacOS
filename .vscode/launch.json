@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:SmartTranslator}",
+            "name": "Debug SmartTranslator",
+            "target": "SmartTranslator",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug SmartTranslator"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:SmartTranslator}",
+            "name": "Release SmartTranslator",
+            "target": "SmartTranslator",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release SmartTranslator"
+        }
+    ]
+}
